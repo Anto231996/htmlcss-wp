@@ -10,3 +10,125 @@
     clear: both;
 }
 
+.container{
+    width: 1800px;
+    margin: 0 auto;
+    font-family: 'Roboto', sans-serif;
+}
+
+header.container{
+    margin: 25px auto 50px;
+}
+
+#logo{
+    padding: 5px;
+}
+
+ul#menu li{
+    display: inline-block;
+    font-size: 28px;
+    margin: 50px 25px 0 0;
+    padding: 10px;
+    color: #999999;
+    text-transform: uppercase;
+}
+
+#jumbotron{
+    background-image: url(../img/banner.jpg);
+    height: 750px;
+    filter: brightness(0.8);
+    border-radius: 20px;
+    position: relative;
+    background-size: cover;
+    margin-bottom: 50px;
+    background-position-y: center;
+}
+
+.text-jumbotron{
+    position: absolute;
+    left: 100px;
+    bottom: 100px;
+    height: 250px;
+    width: 50%;
+    font-size: 51px; 
+}
+
+main#content > header{
+    height: 150px;
+}
+
+h3{
+    font-size: 50px;
+}
+
+h6{
+    font-size: 25px;
+    color: #999999;
+}
+
+main#content aside, main#content article{
+    height: 300px;
+    background-size: cover;
+    float: left;
+    filter: brightness(0.8);
+    border-radius: 20px;
+}
+
+main#content aside{
+    width: 20%;
+}
+    
+main#content article{
+    width: calc(60% - 30px);
+    margin: 0 15px;
+    background-image: url(../img/banner-2.jpg);
+    background-position-y: center;
+}
+
+.aside-left{
+    background-image: url(../img/img-1.jpg);
+}
+
+.aside-right{
+    background-image: url(../img/img-3.jpg);
+}
+
+h5{
+    font-size: 25px;
+}
+
+.text-aside-left{
+    float: left;
+}
+
+.text-aside-right{
+    float: left;
+}
+
+.text-article{
+    float: left;
+}
+
+section#content aside, section#content article{
+    height: 300px;
+    float: left;
+
+}
+
+section#content aside{
+    width: 20%;
+}
+    
+section#content article{
+    width: calc(60% - 30px);
+    margin: 0 15px;
+}
+
+p{
+    font-size: 20px;
+    color: #999999;
+}
+
+/* h4{
+    text-align: center;
+} */
